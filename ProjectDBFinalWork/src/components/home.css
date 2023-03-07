@@ -1,0 +1,144 @@
+.navbar ul li a {
+
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.navbar .nav {
+    margin-bottom: 20px;
+}
+.navbar .nav .hamburger{
+    background-color: #75c9b7;;
+    border: none;
+    color: white;
+    font-size: largee;
+}
+.id-btn {
+
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: orangered;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #75c9b7;;
+    
+}
+
+
+.options {
+    margin-top: 10px;
+    padding-left: 40px;
+    font-size: larger;
+}
+
+.options .t {
+    padding: 10px 10px;
+    margin: 20px 10px;
+}
+
+.options .c {
+    padding: 10px 10px;
+    margin: 20px 10px;
+}
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.classes {
+    border: 2px solid #E4E4E4;
+    width: 380px;
+    height: 300px;
+    margin: 0px 15px;
+    
+}
+.classes, .header{
+    border-radius: 10px 10px 0px 0px;
+}
+.classes:hover {
+   box-shadow: 10px 10px 12px #D8CBCB;
+}
+.main a{
+    text-decoration: none;
+}
+.header {
+
+    padding: 12px 10px;
+    height: 120px;
+    color: aliceblue;
+    margin: 1px;
+}
+
+#one {
+    background-color: orange;
+}
+
+#two {
+    background-color: palevioletred;
+}
+
+#three {
+    background-color: green;
+}
+
+.dot {
+    float: right;
+}
+.nav-item1{
+color:white;
+margin-right: 25px;
+}
+.nav-item1:hover {
+    color: grey;
+    
+}
+#sidebarmenu {
+    position: fixed;
+}
+
+.side-bar {
+    background-color: #75c9b7;;
+    height: 100%;
+    width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    transition: ease-in;
+}
+
+.side-bar ul li a {
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.side-bar ul li {
+    list-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 20px;
+
+}
+
+.side-bar ul li a:hover {
+    font-size: larger;
+}
+.headerrr{
+    background-color: #75c9b7;
+    height: 300px;
+    border: 2px solid black;
+   margin: 10px 20px;
+   border-radius: 10px;
+
+}
+.headerrr .elements{
+    text-align: center;
+    padding: 4px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+ 

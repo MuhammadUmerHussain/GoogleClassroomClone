@@ -1,0 +1,263 @@
+.buttons{
+    
+    width: 70vw;
+    display: flex;
+    margin-bottom:20px;
+    gap:10px;
+    align-items: center;
+    
+    flex-direction: row;
+}
+.linkclass{
+    color:white
+}
+.linkclass:hover{
+text-decoration: underline;
+color:white
+}
+.id-btn {
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: orangered;
+    font-weight: bold;
+}
+
+.bttnn{
+    border:none;
+    margin:0px;
+    background-color: #75c9b7;
+    display: flex;
+    width:60vw;
+    border-radius: 10px;
+    
+}
+.bttnn:hover{
+    background-color:aquamarine
+}
+
+.options {
+    margin-top: 10px;
+    padding-left: 40px;
+    font-size: larger;
+}
+
+.options .t {
+    padding: 10px 10px;
+    margin: 20px 10px;
+}
+
+.options .c {
+    padding: 10px 10px;
+    margin: 20px 10px;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.classes {
+    border: 2px solid #E4E4E4;
+    width: 380px;
+    height: 300px;
+
+}
+
+.classes,
+.header {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.classes:hover {
+    box-shadow: 10px 10px 12px #D8CBCB;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.header {
+
+    padding: 12px 10px;
+    height: 120px;
+    color: aliceblue;
+    margin: 1px;
+}
+
+#one {
+    background-color: orange;
+}
+
+#two {
+    background-color: palevioletred;
+}
+
+#three {
+    background-color: green;
+}
+.lin{
+    color: white;
+}
+.lin:hover{
+    color: #3c4043;
+    
+    
+}
+.dot {
+    float: right;
+}
+
+#sidebarmenu {
+    position: fixed;
+}
+
+.side-bar {
+    background-color: #778FFB;
+    height: 100%;
+    width: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: fixed;
+    transition: ease-in;
+}
+
+.side-bar ul li a {
+    color: aliceblue;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.side-bar ul li {
+    list-style: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 20px;
+
+}
+
+.side-bar ul li a:hover {
+    font-size: larger;
+}
+
+.headerrr {
+   
+    height: 300px;
+    border: 2px solid cornflowerblue;
+    margin: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.headerrr .elements {
+    text-align: center;
+    padding: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+.upcoming {
+    width: 22%;
+    border: 2px solid #E4E4E4;
+    height: 150px;
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: #6C6969;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.announcement {
+    border: 2px solid #E4E4E4;
+    height: 90px;
+    width: 80%;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 10px 12px #D8CBCB;
+}
+
+.announcement input {
+    width: 78%;
+    height: 40px;
+    margin: 20px 20px 20px 5px;
+    border: none;
+}
+
+.announcement .input .logo {
+    margin: 10px 10px 5px 10px;
+}
+
+.section {
+    margin: auto;
+    padding: 3.5rem 2.5rem;
+    max-width: 47.5rem;
+}
+
+.section h1 {
+    color: #D05858;
+    border-bottom: 1px solid #D05858;
+    padding: 16px;
+}
+
+.section .students  {
+    /* border-bottom: 2px solid #ac0303; */
+    
+    padding: 16px;
+    letter-spacing: .01785714em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #3c4043;
+
+}
+.s{
+display:flex;
+flex-direction: column;
+
+
+}
+.q{
+display: inline;
+
+
+}
+
+.section .teachers .t {
+    padding: 16px;
+    letter-spacing: .01785714em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #3c4043;
+}
+
+.classwork {
+    margin: auto;
+    max-width: 47.5rem;
+    
+}
+
+.classwork .c1 {
+    border-bottom: 2px solid #E4E4E4;
+    padding: 16px;
+    letter-spacing: .01785714em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.875rem;
+    line-height: 3.25rem;
+    color: #3c4043;
+    border-radius: 8px;
+}
+
+.classwork .c1:hover {
+    background-color: #FFD5A9;
+}
+
+.classwork .c1 a {
+    color: black;
+    text-decoration: none;
+    padding-left: 5px;
+}

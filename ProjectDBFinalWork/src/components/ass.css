@@ -1,0 +1,203 @@
+.flexxx {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+}
+.bo{
+border: 2px solid #bebebe;
+border-radius: 25px;
+padding: 6px;
+width: 80%;
+}
+
+.grademarks{
+    
+    margin-top: 50px;
+    color: #616161;
+}
+.asg-sec {
+    margin: 10px 100px;
+
+    width: 50%;
+    
+    
+    height: 120px;
+    margin-top: 20px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .thin {
+    color: #6C6969;
+    font-weight: 100;
+    
+}
+.break{
+border-bottom: 1px solid #2A53F6;
+}
+.asg-sec .td {
+    padding: 0px 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    color: #6C6969;
+}
+
+.asg-sec .pd {
+    padding: 0px 12px;
+    color: #6C6969;
+}
+
+.assignment .box {
+
+    border: 2px solid #E4E4E4;
+    width: 70%;
+    margin-top: 40px;
+    padding-left: 10px;
+    margin-left: 0px;
+    height: 70px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.assignment {
+
+    padding-bottom: 26px;
+    margin-top: 20px;
+
+}
+
+.name {
+
+    
+  
+    font-size: 20px;
+    color: #505152;
+}
+
+ .name:hover {
+    color: #2A53F6;
+}
+
+.class-comments {
+    margin: 20px 10px;
+   
+    color: #505152;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+
+}
+
+.class-comments .comments input {
+    width: 80%;
+    
+    border: none;
+    border: 2px solid #E4E4E4;
+    border-radius: 18px;
+    height: 40px;
+}
+
+.btn{
+    border-style: "none";
+    color:#6C6969;
+    margin-left:0px;
+}
+.class-comments .comments {
+    margin-top: 8px;
+    display: "flex";
+
+
+    width: 107%;
+}
+.ad{
+    display: none;
+}
+.submission {
+
+    margin: 20px 100px;
+    border: 2px solid #E4E4E4;
+    width: 35%;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px #D8CBCB;
+    padding-top: 14px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submission h3 {
+    padding-top: 14px;
+    margin: 10px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: #3c4043;
+    display: inline;
+    padding-right: 85px;
+}
+
+.submission .upload {
+    border: 2px solid #E4E4E4;
+    width: 86%;
+    margin: 20px 20px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.submission .upload span {
+    padding: 20px;
+    color: #505152;
+    font-size: large;
+}
+
+.submission .btn {
+    width: 86%;
+    margin: 20px 20px;
+}
+
+.submission .btn:hover {
+    background-color: #D3E7FC;
+    color: #505152;
+}
+
+.add-comment {
+    border: 2px solid #E4E4E4;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 12px #D8CBCB;
+    padding-top: 14px;
+    width: 104%;
+
+}
+.class-comments .comments-quantity {
+    color: #060303;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+
+    margin-top: 6px;
+    margin-bottom: 20px;
+}
+
+ .class-comments .co {
+     font-size: 16px;
+     ;
+     color: black;
+ }
+  
+.add-comment input {
+    border: 2px solid #E4E4E4;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px 20px;
+
+}
+
+.add-comment .heading {
+    padding-left: 10px;
+}
